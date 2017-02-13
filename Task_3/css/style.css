@@ -161,3 +161,51 @@ body {
 	position: relative;
 	bottom: -3px;
 }
+.overview_block {
+	background-color: #f3f3f3;
+	min-height: 117px;
+	border-top: 1px solid #ffffff;
+}
+.active_stories_name {
+	background-color: #f3f3f3;
+	margin: 0;
+	padding: 25px 38px 10px 38px;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #e0e0e0;	
+}
+.active_stories_name p {
+	font-size: 14px;
+	font-family: "Arial", Georgia, Serif;
+	color: #666666;
+	font-weight: bold;
+	margin: 0;
+}
+.stories_block {
+	border-top: 1px solid #ffffff;	
+	border-bottom: 1px solid #e9e9e9;
+	background: #f9f9f9;
+}
+
+.resize_block {
+	width: 50px;
+	height: 50px;
+	background: yellow;
+}
+
+.icon_resize {
+	width: 20px;
+	height: 20px;
+	background: lime;
+	display: block;
+}
+
+.stories_block >  input + .resize_block {
+	width: 50px;
+	height: 50px;
+	
+}
+.stories_block >  input:checked + .resize_block {
+	width: 150px;
+	height: 150px;
+	
+}
