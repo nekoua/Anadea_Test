@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	background-image: url(../img/Layer-0.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.wrapper {
+	width: 84%;
+	margin: 0 8% 0 8%;
+}
+.header {
+	min-height: 39px; 
+	padding: 0 8% 0 8%;
+	background-image: -ms-linear-gradient(top, #4A5761 0%, #404b54 100%);
+	background-image: -moz-linear-gradient(top, #4A5761 0%, #404b54 100%); 
+	background-image: -o-linear-gradient(top, #4A5761 0%, #404b54 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4A5761), color-stop(100, #404b54));
+	background-image: -webkit-linear-gradient(top, #4A5761 0%, #404b54 100%);
+	background-image: linear-gradient(to bottom, #4A5761 0%, #404b54 100%);
+	margin-bottom: 25px;
+}
+.sait_name {
+	font-size: 14px;
+	float: left;
+	line-height: 280%;
+	margin: 0;
+	font-family: "Arial", Georgia, Serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+.nav_cont {
+	float: right;
+}
+.nav_cont ul {
+	list-style: none;
+	margin: 10px 0 13px 0;
+ 	padding: 0;
+}
+.nav_cont ul li {
+	float: left;
+	font-size: 14px;
+	padding: 0 15px;
+	font-family: "Arial", Georgia, Serif;
+	font-weight: bold;
+	color: #ffffff;
+}
+.nav_cont ul li:nth-child(2) {
+	border-right: 1px solid #343f47;
+}
+.nav_cont ul li:nth-child(3) {
+	border-left: 1px solid #737d85;
+}
+.ac_name {
+	padding: 0;
+	margin: 0;
+}
+.content_block {
+	width: 69.15%;
+	min-height: 517px;
+	float: left;
+	background-color: #f3f3f3;
+	border-radius: 5px;
+}
+.cntant_name {
+	background-color: #f3f3f3;
+	margin: 0;
+	padding: 25px 38px 10px 38px;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #e0e0e0;	
+}
+.cntant_name p {
+	font-size: 14px;
+	font-family: "Arial", Georgia, Serif;
+	color: #666666;
+	font-weight: bold;
+	margin: 0;
+}
+.main_text {
+	padding: 20px 38px 20px 38px;
+	margin: 0;
+	font-family: "Arial", Georgia, Serif;
+}
+.list_cont {
+	width: 18.66%;
+	float: right;
+	background-color: rgba(71,90,106,0.6);
+	border-radius: 3px;
+}
+.list {
+	list-style: none;
+	padding: 0 0 7px 0;
+	margin: 0;
+}
+.list li {
+	padding: 5px 12px;
+}
+.list li:hover {
+	background-color: rgba(75,94,109,0.6);
+}
+.list li a {
+	text-decoration: none;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #c1e3ff;
+}
