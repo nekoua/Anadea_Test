@@ -344,19 +344,26 @@ body {
 	color: #666666;
 	display: inline-block;
 	margin: 0 2px 0 0;
-	padding: 0;
+	padding: 3px 0;
 }
 .messege_block time {
 	margin: 0 5px;
 	color: #999999;
 	font-weight: normal;
 }
+.write_icon {
+	width: 13px;
+	height: 13px;
+	background: url(../img/write-icon.png) no-repeat 50% 50%;
+	position: relative;
+	display: inline-block;
+}
 .answer_link {
 	background: #f4f8fc;
 	border-left: 1px solid #d0dfec;
 	text-decoration: none;
 	color: #6689a6;
-	padding: 4px 10px;
+	padding: 7px 10px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -369,4 +376,12 @@ body {
 	display: block;
 	float: left;
 	margin: 0 4px 0 0;
+}
+.mess_block_link {
+	text-decoration: none;
+	color: #6689a6;
+	padding: 6px 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
