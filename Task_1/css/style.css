@@ -2,41 +2,101 @@
 	font-family: "roboto", sans-serif;
 }
 .sub_contaoner {
-	background-color: lime;
 	min-height: 100%;
 }
 .header {
 	background-color: #333333;
 	padding: 21px 4%;
-
 }
 .site_name {
-	background-color: orange;
 	font-weight: bold;
 	font-size: 32px;
 	margin: 0;
+	color: #ffffff;
 	line-height: 122%;
 	padding-left: 16px;
 	letter-spacing: 0px;
 }
 .header_btn_grup {
-	background-color: purple;
-
+	padding: 0;
+}
+.btn_cont {
+	padding: 0;
 }
 .add_post {
 	font-size: 18px;
 	font-weight: bold;
-	margin: 0 0 0 36px;
-	padding-left: 23px;
-	padding-right: 19px;
+	margin: 0 0px 0 0px;
+	padding-left: 5px;
+	padding-right: 5px;
 	border-radius: 2px;
 	background-color: #fd2828;
 	border: 1px solid #ff2947;
 	letter-spacing: 0.5px;
 }
+.language_cont {
+	float: right;
+	padding: 12px 1.4% 0;
+}
+.flag_cont {
+	width: 25px;
+	height: 16px;
+	margin: 0 1px;
+}
+.british {
+	float: left;
+	margin: 0 10px 0 4px; 	
+	background: url(../img/british.png) no-repeat 50% 50%;
+}
+.spain {
+	float: left;
+	background: url(../img/spain.png) no-repeat 50% 50%;
+}
+.form-switcher input[type="checkbox"] {
+  display: none;
+}
+.form-switcher {
+	float: left;
+	margin: 0 6px 0 0;
+}
+.form-switcher .switcher {
+  background: #2a2a2a;
+  border: 1px solid #222222;
+  padding: 0;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.form-switcher .switcher:after {
+  background: #555555;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  transform: translateX(0);
+  transition: all 0.2s ease-out;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
+}
+.form-switcher .switcher {
+  width: 39px;
+  height: 17px;
+}
+.form-switcher .switcher:after {
+  height: 15px;
+  width: 15px;
+  background: url(../img/metall.png) no-repeat 48% 47%;
+}
+.form-switcher input[type="checkbox"]:checked + .switcher {
+  box-shadow: 0px 0px 0px 12.5px #111111 inset;
+}
+.form-switcher input[type="checkbox"]:checked + .switcher:after {
+	transform: translateX(22px);
+}
 .search_block {
 	background-color: #dbdbdb;
-	padding: 14px 4%;
+	padding: 0.95% 4%;
 	position: relative;
 	z-index: 1;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -44,77 +104,212 @@
 .main_nav_cont {
 	margin: 0;
 	border: none;
-	min-height: 100%;
-	background-color: lightgrey;
+	padding: 0;
 }
-
+.main_nav_block {
+	width: 11%;
+	float: left;
+}
+.main_nav_block li {
+	width: 100%;
+}
 .main_nav_block li a {
-	padding: 15px 17px;
+	padding: 9% 1% 7% 10.5%;
 	border: none;
 	color: #333333;
-	font-size: 19px;
+	font-size: 1.2vw;
 	font-weight: bold;
 }
 .dropdown_sity_block {
 	border: none;
 }
 .sity_btn {
-	margin-left: 20px;
 	background-color: #dbdbdb;
 	margin: 0;
+	position: relative;
+}
+.sity_btn .caret {
+	position: absolute;
+	top: 48%;
+	right: 8%;
 }
 .search_block_main {
 	margin: 0;
-	padding: 0 7px 0 8px;
+	padding: 0;
+	width: 100%;
 }
 .search_group {
-	padding: 0 0 0 10px;
+	width: 55.4%;
+	margin: 0 0.2% 0 1%;
+	float: left;
 }
 .search_field {
-	min-width: 809px;
-	padding: 23px 20px;
-	font-size: 20px;
+	min-width: 100%;
+	float: left;
+	padding: 2.8% 2%;
+	font-size: 2.7vh;
 	letter-spacing: -0.4px;
 	border-color: #c7c7c7;
 }
 .rubric_group {
-	background-color: pink;
-
+	width: 22.2%;
+	float: left;
 }
 .rubric_btn {
-	width: 322px;
-	font-size: 20px;
+	width: 100%;
+	font-size: 2.5vh;
 	text-align: left;
 	letter-spacing: -0.4px;
-	padding: 9px 21px;
+	padding: 2.8% 6.2%;
 	border-color: #c7c7c7;
+	color: #acacac;
+	position: relative;
 }
 .rubric_btn .caret {
-	margin: 0 0 0 150px;
+	position: absolute;
+	top: 45%;
+	right: 6%;
+	color: #333333;
 }
-
+.search_btn {
+	width: 9%;
+	border: 1px solid #c7c7c7;
+	color: #333333;
+	font-size: 1.25vw;
+	font-weight: bold;
+	padding: 0.55% 2.4%;
+	float: right;
+}
 .main_container {
-	background-color: #123456;
-	min-height: 300px;
-	padding: 0 4%;
+	background-color: #ebebeb;
+	min-height: 500px;
+	padding: 3% 4%;
 }
 .content_container, .right-sidebar {
 	float: left;
 }
 .content_container {
-	background-color: pink;
-	min-height: 200px;
 	width: calc(100% - 346px);
+	padding: 0;
 }
+.double_col {
+	padding: 0;
+}
+.photo_card {
+	min-height: 100px;
+}
+.advertisement_card {
+	min-height: 100px;
+	padding: 0;
+}
+.one_col {
+}
+/*--- BANER BLOCK ---*/
 .right-sidebar {
-	background-color: green;
 	min-height: 500px;	
 	float: left;
 	width: 346px;
-
+	padding-top: 4px;
 }
-
-.test-block {
-	background-color: cyan;
-	min-height: 150px;
+.comercial_block {
+	width: 345px;
+	border: 1px solid #e1e1e1;
+	min-height: 50px;
+	margin-bottom: 8px;
+}
+/* -------====== ADVERT NO IMG ======------*/
+.advert_card {
+	background-color: #fff;
+	position: relative;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 2vh;
+	padding: 2vh 0 0 0;
+}
+.no_img {
+	padding: 0;
+}
+.advert_card_img {
+	border: 1px solid #e1e1e1;
+	max-width: 100%;
+}
+.adv_card_img {
+}
+.adv_card_img .advert_name {
+	display: inline-block;
+}
+.advert_img_conteiner {
+	position: relative;
+	overflow: hidden;	
+}
+.img_cont {
+	padding: 0;
+	width: 100%;
+}
+.adv_card_img .advert_price{ 
+	float: right;
+	position: absolute;
+}
+.advert_img_one {
+	padding: 0;
+}
+.small_img-cont {
+	padding: 0;
+}
+.small_img {
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+.yellow_advert {
+	background-color: #fef5ca;
+	border: none;
+	box-shadow: 7px 7px 30px -5px #757575 ;
+}
+.advert_price {
+	background-color: #ff2929;
+	padding: 3% 4.4% 3.4% 5.7%;
+	color: #ffffff;
+	position: relative;
+	font-size: 1.38vw;
+	z-index: 20;
+	top: 0;
+	right: 0;
+}
+.advert_name {
+	font-weight: bold;
+	font-size: 1.4vw;
+	margin: 0;
+	padding: 9.5% 4% 0;
+}
+.advert_text {
+	padding: 5.6% 4% 0%;
+	font-size: 1.2vw;
+}
+.advert_footer {
+	background-color: rgba(200,200,200,.3);
+	padding-bottom: 2.5%;
+	color: #acacac;
+}
+.advert_breadcrumbs {
+	list-style: none;
+	margin: 0;
+	padding: 3% 0 0%;
+	font-size: 1.1vw;
+}
+.advert_breadcrumbs li {
+	display: inline;
+}
+.advert_breadcrumbs li:first-child::after {
+  content: "»";
+  padding: 0 0 0 1%;
+}
+.advert_breadcrumbs a {
+	display: inline-block;
+	color: #acacac;
+}
+.advert_footer time {
+	font-size: 1.15vw;
+	padding: 1% 0;	
 }

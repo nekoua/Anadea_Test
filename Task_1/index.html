@@ -20,7 +20,6 @@
     </head>
     <body>
 
-
       <div class="container-fluid">
         <div class="row">
 
@@ -28,63 +27,302 @@
             <div class="sub_contaoner clearfix">
               <h1 class="col-xs-4 site_name">Classified Ads</h1>
               <div class="col-xs-3 col-xs-offset-5 header_btn_grup">
-                <button type="button" class="btn btn-primary add_post">Post your Ad</button>
-
+                <div class="col-xs-5 col-xs-offset-2 btn_cont">
+                <button type="button" class=" col-md-12 btn btn-primary add_post">Post your Ad</button>
+                </div>
+                <div class="col-md-4 language_cont"> 
+                  <i class="flag_cont british"></i>
+                    <div class="form-switcher form-switcher-sm-phone">
+                    <input type="checkbox" hidden name="switcher-lg" id="switcher-lg">
+                    <label class="switcher" for="switcher-lg"></label>
+                  </div>
+                  <i class="flag_cont spain"></i>
+                </div>
               </div> 
             </div>
           </div>
           <div class="search_block">
             <div class="sub_contaoner">
-
+            
              <nav class="navbar main_nav_cont">
-              <ul class="nav navbar-nav main_nav_block">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle sity_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Los Angeles <span class="caret"></span></a>
-                  <ul class="dropdown-menu dropdown_sity_block">
-                    <li><a href="#">New York</a></li>
-                    <li><a href="#">Chicago</a></li>
-                    <li><a href="#">Las Vegas</a></li>
-                    <li><a href="#">Detroit</a></li>
-                    <li><a href="#">Boston</a></li>
-                  </ul>
-                </li>
-              </ul>
               <form class="navbar-form navbar-left search_block_main">
-                <div class="form-group search_group">
+                <ul class="nav navbar-nav main_nav_block">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle sity_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Los Angeles <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown_sity_block">
+                      <li><a href="#">New York</a></li>
+                      <li><a href="#">Chicago</a></li>
+                      <li><a href="#">Las Vegas</a></li>
+                      <li><a href="#">Detroit</a></li>
+                      <li><a href="#">Boston</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <div class="form-group search_group clearfix">
                   <input type="text" class="form-control search_field" placeholder="What are you looking?">
                 </div>
-              </form>
 
-              <div class="btn-group rubric_group">
-                <button type="button" class="btn btn-default dropdown-toggle rubric_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose rubric <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu rubric_menu">
-                  <li><a href="#">Car</a></li>
-                  <li><a href="#">Moto</a></li>
-                  <li><a href="#">Boat</a></li>
-                </ul>
-              </div>
-
+                <div class="btn-group rubric_group">
+                  <button type="button" class="btn btn-default dropdown-toggle rubric_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Choose rubric <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu rubric_menu">
+                    <li><a href="#">Car</a></li>
+                    <li><a href="#">Moto</a></li>
+                    <li><a href="#">Boat</a></li>
+                  </ul>
+                </div>
+                <button type="submit" class="btn btn-default col-md-2 search_btn">Search</button>
+              </form> 
             </nav>
-
-
           </div>
         </div>
         <div class="main_container clearfix">
-          <div class="content_container">
-            123
-          </div>
-          <div class="right-sidebar">
+          <div class="content_container col-xs-12">
+            <div class="col-xs-8 double_col">
 
+
+              <div class="col-xs-6 one_col">
+               <div class="advertisement_card col-xs-12">
+
+                <article class="advert_card adv_card_img clearfix">
+                  <div class="col-xs-12 advert_img_conteiner">
+                    <div class="col-xs-12 img_cont">
+                      <span class="advert_price pull-right">$2,500</span>
+                      <img class="col-xs-12 advert_img_one" src="img/advert_car1.png" alt="Advert img">
+                    </div>
+                  </div>
+                  <h4 class="advert_name">Bueno y ahorrador de gasolina</h4>
+                  <p class="col-xs-12 advert_text">Vendo un Honda civic 93 color rojo automatico motor y transmsion</p>
+                  <footer class="col-xs-12 advert_footer">
+                    <ul class="advert_breadcrumbs">
+                      <li><a href="#">Cars</a></li>
+                      <li><a href="#">Honda</a></li>
+                    </ul>
+                    <time>Today, 11:15 am</time>
+                  </footer> 
+                </article>
+
+              </div>
+            </div>
+
+
+            <div class="col-xs-6 one_col">
+              <div class="advertisement_card col-xs-12">
+
+                <article class="advert_card no_img clearfix">
+                  <span class="advert_price pull-right">$11,800</span>
+                  <h4 class=" advert_name">Bonita van familiar</h4>
+                  <p class="col-xs-12 advert_text">Vendo caravan 2000, con 129xxx millas, motor y transmicion en buen estado, vidrios electricos.</p>
+                  <footer class="col-xs-12 advert_footer">
+                    <ul class="advert_breadcrumbs">
+                      <li><a href="#">Cars</a></li>
+                      <li><a href="#">Honda</a></li>
+                    </ul>
+                    <time>Today, 11:09 am</time>
+                  </footer>  
+                </article>
+
+
+                <article class="advert_card no_img clearfix">
+                  <h4 class=" advert_name">Limpio</h4>
+                  <p class="col-xs-12 advert_text">Vendo dodge neon aire acondisio-nado titulo limpio 4 silindros 19.700 millas 5628465854</p>
+                  <footer class="col-xs-12 advert_footer">
+                    <ul class="advert_breadcrumbs">
+                      <li><a href="#">Cars</a></li>
+                      <li><a href="#">Honda</a></li>
+                    </ul>
+                    <time>Today, 11:01 am</time>
+                  </footer>  
+                </article>
+
+              </div>
+            </div>
+            
+            <div class="col-xs-12">
+
+              <div class="advertisement_card col-xs-12">
+
+                <article class="advert_card adv_card_img clearfix">
+                  <div class="col-xs-12 advert_img_conteiner">
+                    <div class="col-xs-12 img_cont">
+                      <span class="advert_price pull-right">$1,580,000</span>
+                      <img class="col-xs-12 advert_img_one" src="img/advert_car-2.png" alt="Advert img">
+                    </div>
+                  </div>
+                  <h4 class="advert_name">Golf todo original</h4>
+                  <p class="col-xs-12 advert_text">2005 Volkswagen New Beetle GLS Convertible 2D | Kilometraje: 35.000 Buen estado Este coche esta libre de problemas mecanicos, pero puede necesitar algunos reacondicionamiento, no funciona la parte superior. Hay aranazos monores cuerpo y golpes, pero sin oxido.</p>
+                  <footer class="col-xs-12 advert_footer">
+                    <ul class="advert_breadcrumbs">
+                      <li><a href="#">Cars</a></li>
+                      <li><a href="#">Honda</a></li>
+                    </ul>
+                    <time>Yesturday, 8:22 am</time>
+                  </footer> 
+                </article>
+
+              </div>
+            </div>
+
+            <div class="col-xs-6 one_col">
+             <div class="advertisement_card col-xs-12">
+
+              <article class="advert_card adv_card_img clearfix">
+                <div class="col-xs-12 advert_img_conteiner">
+                  <div class="col-xs-12 img_cont">
+                    <span class="advert_price pull-right">$26,500</span>
+                    <img class="col-xs-12 advert_img_one" src="img/advert_car-4.png" alt="Advert img">
+                    <div class="col-xs-12 small_img-cont">
+                      <img class="small_img" src="img/advert_car-2-small-1.png" alt="">
+                      <img class="small_img" src="img/advert_car-2-small-2.png" alt="">
+                      <img class="small_img" src="img/advert_car-2-small-3.png" alt="">
+                      <img class="small_img" src="img/advert_car-2-small-4.png" alt="">
+                      <img class="small_img" src="img/advert_car-2-small-5.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <h4 class="advert_name">2001 Dodge stratus automatic</h4>
+                <p class="col-xs-12 advert_text">Vendo dodge neon titulo limpio aire acondicionado 4 puertas automatico. 4 cilindros$ 1950:</p>
+                <footer class="col-xs-12 advert_footer">
+                  <ul class="advert_breadcrumbs">
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">Honda</a></li>
+                  </ul>
+                  <time>Yesturday, 6:22 pm</time>
+                </footer>  
+              </article>
+
+            </div>
           </div>
+
+
+          <div class="col-xs-6 one_col">
+            <div class="advertisement_card col-xs-12">
+
+              <article class="advert_card adv_card_img clearfix">
+                <div class="col-xs-12 advert_img_conteiner">
+                  <div class="col-xs-12 img_cont">
+                    <img class="col-xs-12 advert_img_one" src="img/advert_car1.png" alt="Advert img">
+                  </div>
+                </div>
+                <h4 class="advert_name">Bueno y ahorrador de gasolina</h4>
+                <p class="col-xs-12 advert_text">Vendo un Honda civic 93 color rojo automatico motor y transmsion</p>
+                <footer class="col-xs-12 advert_footer">
+                  <ul class="advert_breadcrumbs">
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">Honda</a></li>
+                  </ul>
+                  <time>Today, 11:15 am</time>
+                </footer> 
+              </article>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-xs-4 one_col">
+          <article class="advert_card adv_card_img yellow_advert clearfix">
+            <div class="col-xs-12 advert_img_conteiner">
+              <div class="col-xs-12 img_cont">
+                <img class="col-xs-12 advert_img_one" src="img/advert_car-1.png" alt="Advert img">
+                <div class="col-xs-12 small_img-cont">
+                  <img class="small_img" src="img/advert_car-1-small-1.png" alt="">
+                  <img class="small_img" src="img/advert_car-1-small-2.png" alt="">
+                  <img class="small_img" src="img/advert_car-1-small-3.png" alt="">
+                </div>
+              </div>
+            </div>
+            <h4 class="advert_name">Dodge Ram 97</h4>
+            <p class="col-xs-12 advert_text">Vendo Ram '97 Motor 5.9 en perfec-tas condiciones. Electrica, Cabina y media, caja corta, color blanco, cualquier prueba mecanica. Vendo dodge neon aire acondisionado titulo limpio.</p>
+            <footer class="col-xs-12 advert_footer">
+              <ul class="advert_breadcrumbs">
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Honda</a></li>
+              </ul>
+              <time>Today, 11:15 am</time>
+            </footer>  
+          </article>
+
+          <article class="advert_card adv_card_img clearfix">
+            <div class="col-xs-12 advert_img_conteiner">
+              <div class="col-xs-12 img_cont">
+                <img class="col-xs-12 advert_img_one" src="img/advert_car-3.png" alt="Advert img">
+              </div>
+            </div>
+            <h4 class="advert_name">Golf todo original</h4>
+            <p class="col-xs-12 advert_text">Vendo micarro con placas asta el otro ano es estandar 4 puertas titulo limpio con solo 100565 millas atoda prueba si te interesa marcame y con gusto te lo muestro.</p>
+            <footer class="col-xs-12 advert_footer">
+              <ul class="advert_breadcrumbs">
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Honda</a></li>
+              </ul>
+              <time>Yesturday, 8:00 pm</time>
+            </footer> 
+          </article>
+
+          <article class="advert_card no_img yellow_advert clearfix">
+            <span class="advert_price pull-right">$100,800</span>
+            <h4 class="advert_name">Bonita familiar turbo es standar</h4>
+            <p class="col-xs-12 advert_text">Vendo caravan 2000, con 129xxx millas, motor y transmicion en buen estado, vidrios.</p>
+            <footer class="col-xs-12 advert_footer">
+              <ul class="advert_breadcrumbs">
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Honda</a></li>
+              </ul>
+              <time>Yesturday, 7:29 pm</time>
+            </footer>  
+          </article>
+
+          <article class="advert_card no_img clearfix">
+            <h4 class=" advert_name">2000 golf turbo es standar</h4>
+            <p class="col-xs-12 advert_text">Vendo bonita golf turbo 4 puertas standar todo le sirve de motor y transmision en muy buen estado trae llantas semi nuevas tiene es muy eco.</p>
+            <footer class="col-xs-12 advert_footer">
+              <ul class="advert_breadcrumbs">
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Honda</a></li>
+              </ul>
+              <time>Today, 11:09 am</time>
+            </footer>  
+          </article>
+
+
+        </div>
+      </div>
+
+
+      <div class="right-sidebar">
+        <div class="comercial_block">
+          <img src="img/ca_1.png" width="343" alt="Comerce baner">
+        </div>
+        <div class="comercial_block">
+          <img src="img/ca_2.png" width="343" alt="Comerce baner">
+        </div>
+        <div class="comercial_block">
+          <img src="img/ca_3.png" width="343" alt="Comerce baner">
+        </div>
+        <div class="comercial_block">
+          <img src="img/ca_4.png" width="343" alt="Comerce baner">
+        </div>
+        <div class="comercial_block">
+          <img src="img/ca_5.png" width="343" alt="Comerce baner">
+        </div>
+        <div class="comercial_block">
+          <img src="img/ca_2.png" width="343" alt="Comerce baner">
+        </div>
+        <div class="comercial_block">
+          <img src="img/ca_3.png" width="343" alt="Comerce baner">
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-  </html>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
