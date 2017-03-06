@@ -353,7 +353,7 @@ body {
   top: -17px; 
   border: 9px solid transparent;
   border-bottom: 8px solid #d0dfec;
-	background-color: lime;
+	background-color: orange;
 }
 .messege_block::after {
 	content: ''; 
