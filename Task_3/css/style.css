@@ -293,14 +293,15 @@ body {
 } 
 .type_mess {
 	color: #b5b5b5; 
+	font-size: 11px;
 	font-style: normal;
-	background-color: red;
+	background-color: purple;
 }
 .calendar_icon {
 	background: url(../img/calendar-icon.png) no-repeat 50% 50%;
 	width: 12px;
 	height: 12px;
-	margin: 0 5px;
+	margin: 0 4px 0 0;
 	display: inline-block;	
 }
 .information_line time { 
@@ -310,7 +311,7 @@ body {
 .days_amount {
 	color: #666666;
 	font-style: normal;	
-	background-color: red;
+	background-color: blue;
 }
 .autor_status {
 	color: #666666;
