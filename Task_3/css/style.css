@@ -218,8 +218,8 @@ body {
 	z-index: 1;
 }
 .stories_block >  input:checked + .resize_cont {
-	width: 228px;
-	height: 194px;
+	width: 203px;
+	height: 170px;
 	top: 2px;
 	left: 23px;
 	padding: 12px;
@@ -237,12 +237,12 @@ body {
 	top: 24px;
 }
 .short_inform_block {
-	padding: 5px 0;
-	margin-bottom: 10px;
+	/*padding: 5px 0;
+	margin-bottom: 10px;*/
 }
 .deys_statistic {
 	float: left;
-	margin-right: 10px;
+
 	
 }
 .raiting_block {
@@ -272,6 +272,7 @@ body {
 	padding: 3px;
 	border: 1px solid #d0dfec;
 	border-radius: 1px;
+	margin: 0 10px 0 0;
 }
 .avatar {
 	width: 38px;
