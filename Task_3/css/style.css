@@ -98,12 +98,9 @@ body {
 	padding: 25px 38px 7px 38px;
 	border-radius: 5px 5px 0 0;
 	border-bottom: 1px solid #e0e0e0;	
-}
-.contant_name p {
 	font-size: 20px;
 	color: #666666;
 	font-weight: bold;
-	margin: 0;
 }
 .forum_nav {
 
@@ -184,6 +181,7 @@ body {
 .overview_block {
 	background-color: #f3f3f3;
 	min-height: 117px;
+	border-top: 1px solid #ffffff;	
 }
 .active_stories_name {
 	background-color: #f3f3f3;
@@ -199,11 +197,9 @@ body {
 	margin: 0;
 }
 .stories_block {
-	border-top: 1px solid #ffffff;	
-	border-bottom: 1px solid #e9e9e9;
 	padding: 14px 64px 2px 23px;
 	position: relative;
-	background-color: blue;
+	background-color: cyan;
 }
 /*--- stories block ---*/
 .stories_block >  input + .resize_cont {
@@ -291,7 +287,8 @@ body {
 .autor_name {
 	color: #6689a6;
 	cursor: pointer;
-	margin: 0;
+	margin: 0 0 0 6px;
+	font-size: 11px;
 	background-color: red;
 } 
 .type_mess {
