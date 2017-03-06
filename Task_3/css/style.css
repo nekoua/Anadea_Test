@@ -287,7 +287,8 @@ body {
 .autor_name {
 	color: #6689a6;
 	cursor: pointer;
-	margin: 0;
+	margin: 0 0 0 6px;
+	font-size: 11px;
 	background-color: red;
 } 
 .type_mess {
