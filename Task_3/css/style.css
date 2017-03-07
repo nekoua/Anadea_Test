@@ -86,6 +86,7 @@ body {
 	width: 100%;
 	min-height: 517px;
 	float: left;
+	padding-bottom: 26px;
 	background-color: #f3f3f3;
 	border-radius: 5px;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
