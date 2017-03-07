@@ -5,6 +5,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	font-family: "Arial", Georgia, Serif;
 }
 .clearfix::after {
 	content: "";
@@ -12,12 +13,12 @@ body {
 	clear: both;
 }
 .wrapper {
-	width: 84%;
-	margin: 0 8% 0 8%;
+	width: 63%;
+	margin: 0 8% 0 6%;
+	background: cyan;
 }
 .header {
 	min-height: 39px; 
-	padding: 0 8% 0 8%;
 	background-image: -ms-linear-gradient(top, #4A5761 0%, #404b54 100%);
 	background-image: -moz-linear-gradient(top, #4A5761 0%, #404b54 100%); 
 	background-image: -o-linear-gradient(top, #4A5761 0%, #404b54 100%);
@@ -26,40 +27,70 @@ body {
 	background-image: linear-gradient(to bottom, #4A5761 0%, #404b54 100%);
 	margin-bottom: 25px;
 }
+.header_cont {
+	background: blue;
+	width: 63%;
+	margin: 0 8% 0 6%;
+	min-height: 10px;
+}
 .sait_name {
-	font-size: 14px;
+	font-size: 12px;
 	float: left;
-	line-height: 280%;
-	margin: 0;
-	font-family: "Arial", Georgia, Serif;
+	margin: 1.15% 0 0 0%;
 	color: #ffffff;
 	font-weight: bold;
+	letter-spacing: 0.2px;
+	background: pink;
 }
 .nav_cont {
 	float: right;
 }
 .nav_cont ul {
 	list-style: none;
-	margin: 10px 0 13px 0;
- 	padding: 0;
+	padding: 0;
+	margin: 4.5% 0;
 }
 .nav_cont ul li {
 	float: left;
-	font-size: 14px;
-	padding: 0 15px;
-	font-family: "Arial", Georgia, Serif;
+	font-size: 11px;
+	padding: 3px 10px 3px 0;
 	font-weight: bold;
 	color: #ffffff;
 }
+.nav_cont ul li:nth-child(1) {
+	padding-right: 15px;
+	background: red;
+}
 .nav_cont ul li:nth-child(2) {
 	border-right: 1px solid #343f47;
+	background: cyan;
+	padding-left: 5px;
+	padding-right: 11px;
 }
 .nav_cont ul li:nth-child(3) {
 	border-left: 1px solid #737d85;
 }
+.nav_cont ul li:nth-child(3) {
+	padding-left: 9px;
+	padding-right: 0;
+}
+.logout_img {
+	background: url(../img/logout.png) no-repeat 40% 50%;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin: 0 4px 0 0;
+}
 .ac_name {
 	padding: 0;
 	margin: 0;
+}
+.mail_img {
+	background: url(../img/mail.png) no-repeat 50% 50%;
+	width: 15px;
+	height: 10px;
+	display: inline-block;
+	margin: 0 6px 0 0;
 }
 .content_block {
 	width: 69.15%;
@@ -71,21 +102,23 @@ body {
 .cntant_name {
 	background-color: #f3f3f3;
 	margin: 0;
+	background: orange;
 	padding: 25px 38px 10px 38px;
 	border-radius: 5px 5px 0 0;
 	border-bottom: 1px solid #e0e0e0;	
 }
-.cntant_name p {
-	font-size: 14px;
-	font-family: "Arial", Georgia, Serif;
+.cntant_name h3 {
+	font-size: 20px;
+	letter-spacing: 0.08px;
 	color: #666666;
+	background: red;
 	font-weight: bold;
 	margin: 0;
 }
 .main_text {
 	padding: 20px 38px 20px 38px;
 	margin: 0;
-	font-family: "Arial", Georgia, Serif;
+	background: green;
 }
 .list_cont {
 	width: 18.66%;
