@@ -188,10 +188,8 @@ body {
 	background-color: #f3f3f3;
 	padding: 37px 0 7px 40px;
 	border-bottom: 1px solid #e0e0e0;	
-
 	font-size: 18px;
 	letter-spacing: 0.9px;
-	font-family: "Arial", Georgia, Serif;
 	color: #666666;
 	font-weight: bold;
 	margin: 0;
@@ -199,18 +197,17 @@ body {
 .stories_block {
 	padding: 14px 64px 2px 23px;
 	position: relative;
-	background-color: cyan;
 }
 
 .active_stories_cont .stories_block {
-	padding: 23px 64px 2px 23px;
+	padding: 14px 64px 2px 23px;
 	position: relative;
-	background-color: cyan;
+	margin: 9px 0 0 0;
 }
 /*--- stories block ---*/
 .stories_block >  input + .resize_cont {
-	width: 50px;
-	height: 50px;
+	width: 46px;
+	height: 46px;
 	position: absolute;
 	top: 15px;
 	left: 36px;
@@ -233,38 +230,44 @@ body {
 	padding-bottom: 12px;
 	z-index: 10;
 }
-.active_stories_cont .stories_block >  input + .resize_cont {
-	top: 24px;
+.resize_cont .position {
+	margin: 7px 0 10px 0;
+	font-size: 11px;
+	padding-left: 63px;
 }
+
 .short_inform_block {
-	/*padding: 5px 0;
-	margin-bottom: 10px;*/
+	float: left;
+	padding: 3px 0 0 0;
+	margin-bottom: 10px;
+	letter-spacing: -0.6px;
 }
 .deys_statistic {
 	float: left;
-
-	
 }
 .raiting_block {
 	background: #5ec8d2;
-	width: 91px;
-	height: 46px;
+	width: 71px;
+	height: 42px;
 	float: right;
 	text-align: center;
 	color: #ffffff;
 	font-size: 41px;
 	font-weight: 100;
-	padding: 4px 10px;
-	margin: 1px;
+	padding: 2px 10px;
+	margin: 5px 0 0 10px;
 }
 .autor_link_block {
 	display: block;
 	text-align: right;
+	float: right;
+	letter-spacing: -0.5px;
+	margin: 1px 10px 0 0; 
 }
 .autor_link_block a {
 	display: block;
-	margin: 7px 0;
-	color: #6689a6; 
+	margin-bottom: 4px;
+	color: #666666;
 }
 .avatar_frame {
 	background-color: #ffffff;
@@ -296,13 +299,11 @@ body {
 	cursor: pointer;
 	margin: 0 0 0 6px;
 	font-size: 11px;
-	background-color: red;
 } 
 .type_mess {
 	color: #b5b5b5; 
 	font-size: 11px;
 	font-style: normal;
-	background-color: purple;
 }
 .calendar_icon {
 	background: url(../img/calendar-icon.png) no-repeat 50% 50%;
@@ -313,18 +314,15 @@ body {
 }
 .information_line time { 
 	color: #6689a6;
-	background-color: red;
 }
 .days_amount {
 	color: #666666;
-	font-style: normal;	
-	background-color: blue;
+	font-style: normal;
 	letter-spacing: -0.3px;
 }
 .autor_status {
 	color: #666666;
-	font-style: normal;	
-	background-color: red;
+	font-style: normal;
 	letter-spacing: -0.5px;
 }
 .status {
@@ -353,7 +351,6 @@ body {
 	margin-bottom: 1.7%;
 	border-radius: 3px;
 	position: relative;
-	background-color: lime;
 }
 .messege_block::before {
 	content: ''; 
@@ -382,7 +379,6 @@ body {
 	cursor: pointer;
 	font-size: 11px;
 	letter-spacing: -0.1px;
-	background-color: red;
 }
 .messege_block time {
 	margin: 0 2px;
